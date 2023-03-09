@@ -1,0 +1,54 @@
+@font-face{
+    font-family: title;
+    src: url('ARCADECLASSIC.ttf');
+}
+
+@font-face{
+    font-family: text;
+    src: url('PassionOne-Regular.ttf');
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 95%;
+    height: 90%;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+body{
+    background-color: black;
+    align-content: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: title;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 0px;
+}
+
+p{
+    color: white;
+    font-family: text;
+    font-size: 50px;
+    text-align: right;
+    margin-left: 150px;
+    margin-top: -15px;
+}
+
+#button1{
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    font-family: text;
+    margin-left: 160px;
+    margin-top: -50px;
+}
+
